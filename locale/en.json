@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "Delete Session",
+    "description": "Adds a “Delete session” item to the conversation menu that permanently removes the session log, its projection cache, and its workspace entries."
+  },
+  "menu": {
+    "deleteSession": "Delete session"
+  },
+  "dialog": {
+    "title": "Delete session permanently",
+    "desc": "The log, projection cache and workspace entries of “{title}” will be removed. This cannot be undone.",
+    "untitled": "Untitled session",
+    "detail": "The files are removed from disk immediately and cannot be restored. Archive (Ctrl + Shift + A) only hides a session.",
+    "confirm": "Delete permanently",
+    "pending": "Deleting…",
+    "live": "This session is still open. Switch to another session (or reload the page), then delete it again.",
+    "failed": "Delete failed: {message}",
+    "close": "Close"
+  },
+  "cancel": "Cancel"
+}
