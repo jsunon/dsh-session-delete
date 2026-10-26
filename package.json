@@ -1,6 +1,7 @@
 {
   "name": "dsh-session-delete",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "description": "给 DSH Web 侧栏的会话菜单加一条「删除会话」：真正删掉会话日志、投影缓存与工作区记录。",
   "type": "module",
@@ -16,7 +17,8 @@
     "locale",
     "icon.svg",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
